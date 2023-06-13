@@ -1,0 +1,157 @@
+
+.fields{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* margin: 0px 10px; */
+    margin-top: 10px;
+}
+
+.label_field{
+    width: 195%;
+    margin: 0em 0.5em;
+}
+
+.input{
+    margin: 24px 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.my_input{
+    border-width: 1px;
+    border-radius: 3px;
+    height: 37px;
+    width: 100%;
+    padding: .67857143em 0.5em;
+    border-color: #d4d4d5;
+}
+.smalldrop{
+    width: 20%;
+    text-align: center;
+    padding-top: 0.48571429em;
+    padding-bottom: 0.48571429em;
+    background-color: #e8e8e8;
+}
+.transaction_grid {
+    display: flex;
+    flex-direction: row;
+}
+.transaction_grid_wide {
+    width: 68.75%;
+    padding-right: .3em;
+}
+
+.transaction_grid_narrow {
+    width: 31.25%;
+    padding-left: .7em;
+}
+
+.date_input{
+    width: 100%;
+    margin-top: 1.65em;
+}
+
+.add_expense{
+    margin-top: 1em;
+    
+}
+
+.add_expense_button{
+    width: 100%;
+}
+.tags{
+    margin-top: 0.1em;
+}
+.note{
+    margin-top: 1em;
+}
+.add_expense_button{
+    background-color: #52ab98;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.content{
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0.8rem;
+    background: #fff;
+    
+}
+
+.header{
+    border-radius: 4px;
+    display: flex;
+    background: #008080;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    
+    margin: 0;
+    padding: 1.05rem 1.5rem;
+    box-shadow: none;
+    color: rgba(0,0,0,.85);
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+
+.icon{
+    background: #008080;
+    cursor: pointer;
+    position: relative;
+    top: 0.1rem;
+    left: 43.3rem;
+    /* z-index: 1;
+    opacity: .8; */
+    border: none;
+    background-color: transparent;
+    font-size: 1.25em;
+    color: #fff;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.625rem 0 0;
+}
+
+.account_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 1;
+    top: 0px!important;
+    left: 0!important;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.85);
+    padding: 1em;
+    /* line-height: 1; */
+    animation-fill-mode: both;
+    animation-duration: .5s;
+    transition: background-color .5s linear;
+    flex-direction: column;
+    align-items: center;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    will-change: opacity;
+    z-index: 1000;
+}
+
+.account_form_inside{
+    width: 50%;
+    margin: 1.2rem auto;
+    /* background-color: white; */
+}
+
+.addnew{
+    padding: 1em;
+    border-bottom: 1px solid #51516c;
+    border-radius: 5px 5px 0 0;
+}
+
+.warning{
+    color: red;
+}

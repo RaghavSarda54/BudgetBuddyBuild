@@ -1,0 +1,29 @@
+.totalinex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table{
+    max-width: 400px;
+    font-size: large;
+}
+
+.table tr{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.table td{
+    padding: 0.9em 0.9em;
+}
+
+.positive{
+    color: #21ba45;
+}
+
+.mono{
+    font-family: Roboto Mono,monospace;
+}
+
+.negative{
+    color: #db2828;
+}

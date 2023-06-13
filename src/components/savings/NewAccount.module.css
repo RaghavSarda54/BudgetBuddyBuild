@@ -1,0 +1,33 @@
+.mainall{
+    /* flex: 1 1 100%; */
+    width: 100%;
+    border-bottom: 1px dotted #d4d4d5;
+    padding: .75em 1em;
+    display: grid;
+    grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
+    /* flex-flow: row nowrap; */
+    align-items: center;
+}
+
+.inex{
+    /* flex: 1 1; */
+    /* white-space: nowrap; */
+    text-align: right;
+}
+
+.name{
+    /* flex-basis: 100%; */
+    padding-left: 1.9em;
+}
+
+.date{
+    /* flex: 1 1;  */
+    /* white-space: nowrap; */
+    color: #7c7c7d;
+}
+
+.account{
+    /* flex-basis: 100%; */
+    padding-left: 0.5em;
+    color: #7c7c7d;
+}

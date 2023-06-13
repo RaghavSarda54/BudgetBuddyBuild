@@ -1,0 +1,256 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    margin-left: 20%;
+    /* position: absolute;
+    right: 72px;
+    top: 120px; */
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+.row1{
+    width: 35%;
+    /* margin-right: 70px; */
+    margin: 30px 35px;
+}
+.row2{
+    width: 65%;
+    margin: 30px 35px;
+}
+.item_menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    border: 1px solid #d4d4d5;
+    border-radius: 0.28571429rem 0.28571429rem 0 0;
+    text-align: center;
+    background-color: white;
+}
+
+.item_menu_a{
+    padding: 0.72857143em 1.14285714em;
+    border-right: 1px solid #d4d4d5;
+    text-decoration: none;
+    color: black;
+    width: 33.33%;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.item_menu a:hover{
+    background-color:rgba(34,36,38,.1);
+}
+
+/* .item_menu a:active{
+    background-color:rgba(34,36,38,.1);
+    color: red;
+} */
+.item_menu_a_active{
+    padding: 0.72857143em 1.14285714em;
+    border-right: 1px solid #d4d4d5;
+    text-decoration: none;
+    color: black;
+    width: 33.33%;
+    text-align: center;
+    cursor: pointer;
+    background-color:rgba(34,36,38,.1);
+    color: red;
+}
+.fields{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* margin: 0px 10px; */
+    margin-top: 10px;
+}
+
+.label_field{
+    width: 68.75%;
+}
+
+.input{
+    margin: 24px 4px;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: .7em;
+    width: 31.25%;
+}
+
+.my_input{
+    border-width: 1px;
+    border-radius: 3px;
+    height: 37px;
+    width: 100%;
+    padding: .67857143em 0.5em;
+    border-color: #d4d4d5;
+}
+.smalldrop{
+    width: 50%;
+    background-color: #e8e8e8;
+
+    border-radius: 2px;
+    text-align: center;
+    /* justify-content: center; */
+    /* height: 37px; */
+    /* line-height: 37px; */
+    /* font-size: 15px; */
+    line-height: 2;
+}
+.transaction_grid {
+    display: flex;
+    flex-direction: row;
+}
+.transaction_grid_wide {
+    width: 68.75%;
+    padding-right: .3em;
+}
+
+.transaction_grid_narrow {
+    width: 31.25%;
+    padding-left: .7em;
+}
+
+.date_input{
+    width: 100%;
+    margin-top: 1.65em;
+}
+
+.add_expense{
+    margin-top: 1em;
+}
+
+.add_expense_button{
+    width: 100%;
+}
+.tags{
+    margin-top: 0.1em;
+}
+.note{
+    margin-top: 1em;
+}
+.add_expense_button{
+    background-color: #52ab98;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.segment{
+    border: 1px solid #d4d4d5;
+    display: none;
+    /* background-color: white; */
+}
+.segment_active{
+    border: 1px solid #d4d4d5;
+    display:block;
+    background-color: white;
+}
+.segment form{
+    margin: 0px 8px;
+    margin-bottom: 10px;
+}
+.segment_active form{
+    margin: 0px 8px;
+    margin-bottom: 10px;
+}
+.worth_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 1em;
+}
+.worth_heading{
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-left: .15em;
+}
+.income_value{
+    font-family: Roboto Mono,monospace;
+}
+.positive{
+    color: #21ba45;
+}
+
+.net_worth{
+    width: 50%;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.account_widget{
+    border: 1px solid #d4d4d5;
+    border-radius: .28571429rem;
+}
+
+.account_widget_group:first-child {
+    border-top: none;
+}
+
+.account_widget_group__header {
+    display: table;
+    width: 100%;
+    cursor: pointer;
+}
+
+.account_widget_group__name, .account_widget_group__total {
+    display: table-cell;
+    font-weight: 500;
+    background-color: rgba(77,78,80,.05);
+    padding: .5em 1em;
+}
+
+.account_widget_group__total {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.account_widget_account {
+    width: 100%;
+    border-top: 1px solid #d4d4d5;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: top;
+}
+
+.account_widget_account__name {
+    flex-basis: 100%;
+    white-space: nowrap;
+    padding: .5em .5em .5em 1em;
+}
+
+.account_widget_account__balance {
+    text-align: right;
+    white-space: nowrap;
+    flex: 1 1;
+    flex-flow: column nowrap;
+}
+
+.account_widget_account__balance, .account_widget_account__name {
+    display: flex;
+    padding: .5em 1em;
+}
+
+.account_widget_account {
+    width: 100%;
+    border-top: 1px solid #d4d4d5;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: top;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #4183c4;
+}
+
+.warning{
+    color: red;
+}

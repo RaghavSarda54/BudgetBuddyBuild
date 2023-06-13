@@ -1,0 +1,23 @@
+.dropdown{
+    width: 100%;
+    /* background-color: gray; */
+    /* font-size: 50%; */
+}
+.right{
+    float: right;
+    margin-right: 0px;
+}
+
+.optiondiv{
+    display: flex;
+}
+
+.item{
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.selected{
+    background: rgba(0,0,0,.03);
+    color: rgba(0,0,0,.95);
+}
